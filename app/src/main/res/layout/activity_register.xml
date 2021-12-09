@@ -1,0 +1,85 @@
+<LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="#D2D7D8"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:gravity="center"
+
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <EditText
+        android:id="@+id/name"
+        android:drawableLeft="@drawable/name"
+        android:layout_margin="5dp"
+        android:hint="Enter your name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/add"
+        android:hint="Enter your address"
+        android:drawableLeft="@drawable/address"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/ph"
+        android:hint="Enter your phonenumber"
+        android:drawableLeft="@drawable/phone"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/email"
+        android:hint="Enter your email"
+        android:drawableLeft="@drawable/email"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/user"
+        android:hint="Enter your username"
+        android:drawableLeft="@drawable/u_s"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/pass"
+        android:hint="Enter your password"
+        android:drawableLeft="@drawable/p_w"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/cpass"
+        android:hint="Enter your confirmed password"
+        android:drawableLeft="@drawable/comfirm_pswrd"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:background="#937371"
+        android:text="Register"
+        android:layout_margin="5dp"
+        android:id="@+id/reg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Back to Login"
+        android:layout_margin="5dp"
+        android:background="#91BDC1"
+        android:id="@+id/back_log"/>
+
+
+
+
+</LinearLayout>
